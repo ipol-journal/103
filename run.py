@@ -5,7 +5,7 @@ import argparse
 
 # parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("sigma", type=float)
+ap.add_argument("scale", type=float)
 args = ap.parse_args()
 
 #run algo
