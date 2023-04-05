@@ -10,5 +10,5 @@ args = ap.parse_args()
 
 #run algo
 #cartoon-texture images
-subprocess.run(['cartoonTexture', 'input_0.sel.png', str(args.scale), 
+subprocess.run(['cartoonTexture', 'input_0.png', str(args.scale), 
                     'cartoon.png', 'texture.png'])
